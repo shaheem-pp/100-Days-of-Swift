@@ -95,28 +95,35 @@ func arrayPrinter(numbers:Int...){
 
 arrayPrinter(numbers: 1,2,3,4,5,6)
 
-enum PasswordError: Error {
+
+// Writing throwing functions
+
+enum PasswordError : Error{
     case obvious
 }
 
-func checkPassword(_ password: String) throws -> Bool {
-    if password == "password" {
+func checkPassword(_ password:String) throws -> Bool{
+    if (password=="password"){
         throw PasswordError.obvious
     }
-
     return true
 }
 
-do {
+// what's happening here is, first do ile code check cheyyum, then try lock cheyyum, checkPasswordile throw il false anenkil catch run cheyyum allenkil tru aanenkil catch run cheyyum
+
+do{
     try checkPassword("password")
-    print("That password is good!")
-} catch {
-    print("You can't use that password.")
+        print("That Password is good!")
+} catch{
+    print("Password not Allowed!")
 }
 
-func doubleInPlace(number: inout Int) {
+func doubleInPlace (number:inout Int){
     number *= 2
 }
 
 var myNum = 10
 doubleInPlace(number: &myNum)
+
+print(myNum)
+
