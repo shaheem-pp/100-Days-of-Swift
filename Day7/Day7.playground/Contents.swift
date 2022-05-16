@@ -95,6 +95,7 @@ func travel3() -> (String) -> Void {
     }
 }
 print()
+
 result3("London")
 result3("London")
 result3("London")
