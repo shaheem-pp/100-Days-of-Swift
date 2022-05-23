@@ -1,1 +1,0 @@
-![](https://raw.githubusercontent.com/shaheem-pp/100-Days-of-Swift/main/Day9/d9.png)
