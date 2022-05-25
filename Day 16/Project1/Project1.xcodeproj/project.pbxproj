@@ -26,7 +26,6 @@
 		4D00C411283DF63D001FA44B /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D00C407283DF63D001FA44B /* nssl0043.jpg */; };
 		4D00C412283DF63D001FA44B /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D00C408283DF63D001FA44B /* nssl0033.jpg */; };
 		4D00C413283DF63D001FA44B /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D00C409283DF63D001FA44B /* nssl0034.jpg */; };
-		4D00C415283DFD8B001FA44B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00C414283DFD8B001FA44B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +69,6 @@
 		4D00C407283DF63D001FA44B /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
 		4D00C408283DF63D001FA44B /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		4D00C409283DF63D001FA44B /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
-		4D00C414283DFD8B001FA44B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +119,6 @@
 		4D00C3CE283DF5C2001FA44B /* Project1 */ = {
 			isa = PBXGroup;
 			children = (
-				4D00C414283DFD8B001FA44B /* DetailViewController.swift */,
 				4D00C3CF283DF5C2001FA44B /* AppDelegate.swift */,
 				4D00C3D1283DF5C2001FA44B /* SceneDelegate.swift */,
 				4D00C3D3283DF5C2001FA44B /* ViewController.swift */,
@@ -313,7 +310,6 @@
 				4D00C3D4283DF5C2001FA44B /* ViewController.swift in Sources */,
 				4D00C3D0283DF5C2001FA44B /* AppDelegate.swift in Sources */,
 				4D00C3D2283DF5C2001FA44B /* SceneDelegate.swift in Sources */,
-				4D00C415283DFD8B001FA44B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
