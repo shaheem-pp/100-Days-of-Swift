@@ -9,13 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //imageView Defined
     private let imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleAspectFill
-        imageView.backgroundColor = .white
+        imageView.contentMode = .scaleAspectFit
         return imageView
     }()
     
+    //button view defined
     private let button: UIButton = {
         let button = UIButton()
         button.backgroundColor = .white
@@ -26,42 +27,36 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // change the background color
+        
+        imageView.image = #imageLiteral(resourceName: "th")
+        
         view.backgroundColor = .systemPink
         view.addSubview(imageView)
-        imageView.frame = CGRect(x: 0,
-                                 y: 0,
-                                 width: view.frame.size.width-60,
-                                 height: view.frame.size.height-150)
+        imageView.frame = CGRect(
+            x: 0,
+            y: 0,
+            width: view.frame.size.width-60,
+            height: view.frame.size.height-150)
         imageView.center = view.center
-        imageView.contentMode = .scaleAspectFit
-        imageView.backgroundColor = UIColor.systemPink
         
         view.addSubview(button)
         
-        getRandomPhoto()
-        button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
-    }
-    
-    @objc func didTapButton() {
-        getRandomPhoto()
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
         button.frame = CGRect(
             x: 30,
             y: view.frame.size.height-150-view.safeAreaInsets.bottom,
             width: view.frame.size.width-60,
-            height: 55
-        )
+            height: 55)
+        button.layer.cornerRadius = 5
+        button.addTarget(self, action: #selector(buttonClickd), for: .touchUpInside)
     }
     
-    func getRandomPhoto() {
+    //    button function to randomise the image
+    @objc func buttonClickd() {
         let randomImg = [ #imageLiteral(resourceName: "td"), #imageLiteral(resourceName: "ccm"), #imageLiteral(resourceName: "ddl"), #imageLiteral(resourceName: "th") ]
         let rand = Int.random(in: 0...3)
         imageView.image = randomImg[rand]
     }
+    
     
 }
 
