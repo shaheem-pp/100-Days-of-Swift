@@ -16,6 +16,7 @@
 		4D0756812848CA2800AD2616 /* PotterHeadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0756802848CA2800AD2616 /* PotterHeadTests.swift */; };
 		4D07568B2848CA2800AD2616 /* PotterHeadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07568A2848CA2800AD2616 /* PotterHeadUITests.swift */; };
 		4D07568D2848CA2800AD2616 /* PotterHeadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07568C2848CA2800AD2616 /* PotterHeadUITestsLaunchTests.swift */; };
+		4D25B70D284AF2940026EADB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25B70C284AF2940026EADB /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4D0756862848CA2800AD2616 /* PotterHeadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotterHeadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D07568A2848CA2800AD2616 /* PotterHeadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterHeadUITests.swift; sourceTree = "<group>"; };
 		4D07568C2848CA2800AD2616 /* PotterHeadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterHeadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D25B70C284AF2940026EADB /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,12 @@
 		4D0756682848CA2400AD2616 /* PotterHead */ = {
 			isa = PBXGroup;
 			children = (
+				4D25B70B284AF2800026EADB /* Model */,
+				4D25B70A284AF2690026EADB /* View */,
+				4D25B709284AF25E0026EADB /* Control */,
 				4D0756692848CA2400AD2616 /* AppDelegate.swift */,
 				4D07566B2848CA2400AD2616 /* SceneDelegate.swift */,
-				4D07566D2848CA2400AD2616 /* ViewController.swift */,
-				4D07566F2848CA2400AD2616 /* Main.storyboard */,
 				4D0756722848CA2700AD2616 /* Assets.xcassets */,
-				4D0756742848CA2700AD2616 /* LaunchScreen.storyboard */,
 				4D0756772848CA2700AD2616 /* Info.plist */,
 			);
 			path = PotterHead;
@@ -125,6 +127,31 @@
 				4D07568C2848CA2800AD2616 /* PotterHeadUITestsLaunchTests.swift */,
 			);
 			path = PotterHeadUITests;
+			sourceTree = "<group>";
+		};
+		4D25B709284AF25E0026EADB /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				4D07566D2848CA2400AD2616 /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		4D25B70A284AF2690026EADB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D0756742848CA2700AD2616 /* LaunchScreen.storyboard */,
+				4D07566F2848CA2400AD2616 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D25B70B284AF2800026EADB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D25B70C284AF2940026EADB /* Question.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D07566E2848CA2400AD2616 /* ViewController.swift in Sources */,
+				4D25B70D284AF2940026EADB /* Question.swift in Sources */,
 				4D07566A2848CA2400AD2616 /* AppDelegate.swift in Sources */,
 				4D07566C2848CA2400AD2616 /* SceneDelegate.swift in Sources */,
 			);
