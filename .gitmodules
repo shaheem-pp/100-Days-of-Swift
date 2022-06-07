@@ -1,0 +1,3 @@
+[submodule "Day"]
+	path = Day
+	url = https://github.com/appbrewery/BMI-Calculator-iOS13
