@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tex-N5-akg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zakath_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HW0-hs-TVz">
+                                <rect key="frame" x="50" y="271" width="314" height="300"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Assets" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O3L-Nt-aVW">
+                                        <rect key="frame" x="0.0" y="130" width="314" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="aqw-0G-y9G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your Assets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMv-Kp-ZtO">
+                                        <rect key="frame" x="0.0" y="73.5" width="314" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkd-9m-FHh">
+                                        <rect key="frame" x="0.0" y="220" width="314" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="L3X-FR-56I"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                                        <connections>
+                                            <segue destination="YtD-4E-rxN" kind="show" id="AK8-GD-FjM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="RMv-Kp-ZtO" secondAttribute="trailing" id="0aX-R1-aMc"/>
+                                    <constraint firstAttribute="trailing" secondItem="wkd-9m-FHh" secondAttribute="trailing" id="BWJ-Rq-yO1"/>
+                                    <constraint firstItem="O3L-Nt-aVW" firstAttribute="centerY" secondItem="HW0-hs-TVz" secondAttribute="centerY" id="KkN-03-MFX"/>
+                                    <constraint firstAttribute="height" constant="300" id="P6R-Ef-HtQ"/>
+                                    <constraint firstItem="O3L-Nt-aVW" firstAttribute="top" secondItem="RMv-Kp-ZtO" secondAttribute="bottom" constant="30" id="U0Q-rn-98C"/>
+                                    <constraint firstItem="wkd-9m-FHh" firstAttribute="leading" secondItem="HW0-hs-TVz" secondAttribute="leading" id="YMk-3J-fUN"/>
+                                    <constraint firstItem="wkd-9m-FHh" firstAttribute="top" secondItem="O3L-Nt-aVW" secondAttribute="bottom" constant="50" id="dxP-AV-60p"/>
+                                    <constraint firstItem="O3L-Nt-aVW" firstAttribute="centerX" secondItem="HW0-hs-TVz" secondAttribute="centerX" id="eVp-5o-Ddn"/>
+                                    <constraint firstAttribute="trailing" secondItem="O3L-Nt-aVW" secondAttribute="trailing" id="g5f-pn-JOb"/>
+                                    <constraint firstItem="O3L-Nt-aVW" firstAttribute="leading" secondItem="HW0-hs-TVz" secondAttribute="leading" id="iRT-V8-jUh"/>
+                                    <constraint firstItem="RMv-Kp-ZtO" firstAttribute="leading" secondItem="HW0-hs-TVz" secondAttribute="leading" id="ybI-FJ-DRY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="HW0-hs-TVz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="86R-f1-hFB"/>
+                            <constraint firstItem="HW0-hs-TVz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VbM-y3-qyu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HW0-hs-TVz" secondAttribute="trailing" constant="50" id="WfQ-8k-e2b"/>
+                            <constraint firstItem="HW0-hs-TVz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bdd-jM-ZuN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5AD-l5-oPx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="50"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Qq-gb-u9a">
+            <objects>
+                <viewController id="YtD-4E-rxN" customClass="ViewController" customModule="Zakath_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b70-sO-HM3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZ0-Fo-bNo">
+                                <rect key="frame" x="50" y="271" width="314" height="300"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Liability" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o6N-6t-Rao">
+                                        <rect key="frame" x="0.0" y="130" width="314" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="und-PD-F1b"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your Debts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCQ-NE-JvA">
+                                        <rect key="frame" x="0.0" y="73.5" width="314" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUq-9h-sX6">
+                                        <rect key="frame" x="0.0" y="220" width="314" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Rdb-gM-cLk"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Next"/>
+                                        <connections>
+                                            <segue destination="Ija-Xk-acj" kind="show" id="hGP-Ea-JDW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="o6N-6t-Rao" firstAttribute="leading" secondItem="FZ0-Fo-bNo" secondAttribute="leading" id="2wA-6x-tMN"/>
+                                    <constraint firstItem="o6N-6t-Rao" firstAttribute="top" secondItem="qCQ-NE-JvA" secondAttribute="bottom" constant="30" id="2wa-Dj-CwM"/>
+                                    <constraint firstItem="o6N-6t-Rao" firstAttribute="centerX" secondItem="FZ0-Fo-bNo" secondAttribute="centerX" id="3KH-3T-yu5"/>
+                                    <constraint firstAttribute="height" constant="300" id="ERm-DH-9J1"/>
+                                    <constraint firstItem="TUq-9h-sX6" firstAttribute="leading" secondItem="FZ0-Fo-bNo" secondAttribute="leading" id="QYB-2H-Bsb"/>
+                                    <constraint firstAttribute="trailing" secondItem="qCQ-NE-JvA" secondAttribute="trailing" id="QnQ-t5-57P"/>
+                                    <constraint firstItem="o6N-6t-Rao" firstAttribute="centerY" secondItem="FZ0-Fo-bNo" secondAttribute="centerY" id="Tht-jX-MZX"/>
+                                    <constraint firstItem="qCQ-NE-JvA" firstAttribute="leading" secondItem="FZ0-Fo-bNo" secondAttribute="leading" id="ZxK-eE-8LY"/>
+                                    <constraint firstItem="TUq-9h-sX6" firstAttribute="top" secondItem="o6N-6t-Rao" secondAttribute="bottom" constant="50" id="bcp-wd-6tR"/>
+                                    <constraint firstAttribute="trailing" secondItem="o6N-6t-Rao" secondAttribute="trailing" id="y7a-vQ-eOb"/>
+                                    <constraint firstAttribute="trailing" secondItem="TUq-9h-sX6" secondAttribute="trailing" id="zVi-s3-eDC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6YC-9a-nkx"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="FZ0-Fo-bNo" firstAttribute="leading" secondItem="6YC-9a-nkx" secondAttribute="leading" constant="50" id="Bei-OZ-YeN"/>
+                            <constraint firstItem="FZ0-Fo-bNo" firstAttribute="centerY" secondItem="b70-sO-HM3" secondAttribute="centerY" id="NAZ-Nk-jjb"/>
+                            <constraint firstItem="6YC-9a-nkx" firstAttribute="trailing" secondItem="FZ0-Fo-bNo" secondAttribute="trailing" constant="50" id="dr1-J5-47G"/>
+                            <constraint firstItem="FZ0-Fo-bNo" firstAttribute="centerX" secondItem="b70-sO-HM3" secondAttribute="centerX" id="hJR-Dx-3g5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IFx-H5-jje"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ptv-A8-2Zr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="50"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kor-AP-DBs">
+            <objects>
+                <viewController id="Ija-Xk-acj" customClass="ViewController" customModule="Zakath_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S3T-Nc-iZq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w89-jv-Mvc">
+                                <rect key="frame" x="50" y="271" width="314" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price of 18g 24K Gold is " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7IJ-ks-15T">
+                                        <rect key="frame" x="0.0" y="73.5" width="314" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INT-k5-b7C">
+                                        <rect key="frame" x="0.0" y="220" width="314" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="dfw-I5-rk1"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Calculate Zakath"/>
+                                        <connections>
+                                            <segue destination="5oi-eR-s8L" kind="show" id="2Mc-xU-7M0"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3,97,913.9 INR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78b-Jj-ytb">
+                                        <rect key="frame" x="0.0" y="130" width="314" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qGJ-iP-RYa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="78b-Jj-ytb" firstAttribute="centerY" secondItem="w89-jv-Mvc" secondAttribute="centerY" id="8xg-Sa-lEo"/>
+                                    <constraint firstAttribute="trailing" secondItem="78b-Jj-ytb" secondAttribute="trailing" id="AQZ-Mr-MZM"/>
+                                    <constraint firstAttribute="trailing" secondItem="7IJ-ks-15T" secondAttribute="trailing" id="LHt-cm-zi5"/>
+                                    <constraint firstItem="78b-Jj-ytb" firstAttribute="leading" secondItem="w89-jv-Mvc" secondAttribute="leading" id="Pkh-be-Q2J"/>
+                                    <constraint firstAttribute="trailing" secondItem="INT-k5-b7C" secondAttribute="trailing" id="ShC-6Q-M8x"/>
+                                    <constraint firstItem="INT-k5-b7C" firstAttribute="top" secondItem="78b-Jj-ytb" secondAttribute="bottom" constant="50" id="g1l-e5-vhA"/>
+                                    <constraint firstItem="7IJ-ks-15T" firstAttribute="leading" secondItem="w89-jv-Mvc" secondAttribute="leading" id="jU3-HL-qlF"/>
+                                    <constraint firstItem="INT-k5-b7C" firstAttribute="leading" secondItem="w89-jv-Mvc" secondAttribute="leading" id="kCf-b2-J1s"/>
+                                    <constraint firstItem="78b-Jj-ytb" firstAttribute="top" secondItem="7IJ-ks-15T" secondAttribute="bottom" constant="30" id="pJD-G0-K5J"/>
+                                    <constraint firstItem="78b-Jj-ytb" firstAttribute="centerX" secondItem="w89-jv-Mvc" secondAttribute="centerX" id="uty-MK-YQE"/>
+                                    <constraint firstAttribute="height" constant="300" id="uve-eP-O0A"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ESF-Ob-oMw"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="w89-jv-Mvc" firstAttribute="centerX" secondItem="S3T-Nc-iZq" secondAttribute="centerX" id="CdN-wq-DN3"/>
+                            <constraint firstItem="w89-jv-Mvc" firstAttribute="leading" secondItem="ESF-Ob-oMw" secondAttribute="leading" constant="50" id="L06-3Z-jr3"/>
+                            <constraint firstItem="ESF-Ob-oMw" firstAttribute="trailing" secondItem="w89-jv-Mvc" secondAttribute="trailing" constant="50" id="NtG-Ho-8Ud"/>
+                            <constraint firstItem="w89-jv-Mvc" firstAttribute="centerY" secondItem="S3T-Nc-iZq" secondAttribute="centerY" id="xdq-oH-dXI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kDf-WO-SKo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAm-fR-eXn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1483" y="50"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="u7A-td-ORw">
+            <objects>
+                <viewController id="Tex-N5-akg" customClass="ViewController" customModule="Zakath_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8SN-tQ-Hg9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="fnG-h9-AvZ">
+                                <rect key="frame" x="50" y="317.5" width="314" height="261"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mU7-tc-ASG">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="60"/>
+                                        <string key="text">Zakat is a religious obligation, ordering all Muslims who meet the necessary criteria to donate a certain portion of wealth each year to charitable causes.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kem-Zp-jFd">
+                                        <rect key="frame" x="0.0" y="67" width="314" height="60"/>
+                                        <string key="text">Zakat falls due when certain conditions are met: Zakat is due only on zakatable wealth that reaches an established minimum threshold for that particular kind of wealth. A lunar year’s full cycle must elapse on nisab for zakat to come due.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neZ-6f-Hi6">
+                                        <rect key="frame" x="0.0" y="134" width="314" height="60"/>
+                                        <string key="text">Zakat falls due when three conditions converge for a person and his wealth:
+One is a Muslim.
+One’s zakatable wealth rises to a minimum threshold (nisab).
+A lunar year (hawl) passes while one’s zakatable wealth sustains the minimum threshold.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDn-N2-pvL">
+                                        <rect key="frame" x="0.0" y="201" width="314" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="MIY-Hf-yaJ"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Calculate My Zakath"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="oUJ-r3-zeS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="wDn-N2-pvL" firstAttribute="height" secondItem="mU7-tc-ASG" secondAttribute="height" id="Oho-o6-D9r"/>
+                                    <constraint firstItem="Kem-Zp-jFd" firstAttribute="height" secondItem="mU7-tc-ASG" secondAttribute="height" id="Swj-Mk-3kq"/>
+                                    <constraint firstItem="neZ-6f-Hi6" firstAttribute="height" secondItem="mU7-tc-ASG" secondAttribute="height" id="op9-5I-hDs"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IdJ-Il-hri"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fnG-h9-AvZ" secondAttribute="trailing" constant="50" id="FY1-oo-pCX"/>
+                            <constraint firstItem="fnG-h9-AvZ" firstAttribute="centerY" secondItem="8SN-tQ-Hg9" secondAttribute="centerY" id="I6X-0P-zSa"/>
+                            <constraint firstItem="fnG-h9-AvZ" firstAttribute="centerX" secondItem="8SN-tQ-Hg9" secondAttribute="centerX" id="cTo-2s-ggM"/>
+                            <constraint firstItem="fnG-h9-AvZ" firstAttribute="leading" secondItem="8SN-tQ-Hg9" secondAttribute="leading" constant="50" id="ei0-cT-osn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="osZ-HV-3Y7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-700" y="49.553571428571423"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fIh-00-68P">
+            <objects>
+                <viewController id="5oi-eR-s8L" customClass="ViewController" customModule="Zakath_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Yc-0S-v77">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aon-Nx-iy5">
+                                <rect key="frame" x="50" y="271" width="314" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount to pay as Zakath is" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWE-So-cMP">
+                                        <rect key="frame" x="0.0" y="73.5" width="314" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5c-VW-Ykr">
+                                        <rect key="frame" x="0.0" y="220" width="314" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="kaD-yL-Hot"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Re Calculate my Zakath"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.5%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqc-J5-5WL">
+                                        <rect key="frame" x="0.0" y="130" width="314" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="YQw-1A-a5I"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="W5c-VW-Ykr" secondAttribute="trailing" id="072-ta-qBm"/>
+                                    <constraint firstAttribute="trailing" secondItem="yqc-J5-5WL" secondAttribute="trailing" id="2aA-SU-fMo"/>
+                                    <constraint firstItem="yqc-J5-5WL" firstAttribute="centerY" secondItem="aon-Nx-iy5" secondAttribute="centerY" id="8ph-l1-3dC"/>
+                                    <constraint firstItem="yqc-J5-5WL" firstAttribute="leading" secondItem="aon-Nx-iy5" secondAttribute="leading" id="IE7-3d-1L0"/>
+                                    <constraint firstAttribute="trailing" secondItem="uWE-So-cMP" secondAttribute="trailing" id="OEZ-e2-lOA"/>
+                                    <constraint firstAttribute="height" constant="300" id="Q4f-dq-Mk4"/>
+                                    <constraint firstItem="yqc-J5-5WL" firstAttribute="top" secondItem="uWE-So-cMP" secondAttribute="bottom" constant="30" id="SG1-WR-oFC"/>
+                                    <constraint firstItem="yqc-J5-5WL" firstAttribute="centerX" secondItem="aon-Nx-iy5" secondAttribute="centerX" id="b49-Y3-pHD"/>
+                                    <constraint firstItem="W5c-VW-Ykr" firstAttribute="leading" secondItem="aon-Nx-iy5" secondAttribute="leading" id="bWE-GS-X4v"/>
+                                    <constraint firstItem="uWE-So-cMP" firstAttribute="leading" secondItem="aon-Nx-iy5" secondAttribute="leading" id="kpl-nd-bQW"/>
+                                    <constraint firstItem="W5c-VW-Ykr" firstAttribute="top" secondItem="yqc-J5-5WL" secondAttribute="bottom" constant="50" id="tWE-IA-5zT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vMQ-YY-6p3"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="aon-Nx-iy5" firstAttribute="centerX" secondItem="5Yc-0S-v77" secondAttribute="centerX" id="AnK-4s-uYJ"/>
+                            <constraint firstItem="aon-Nx-iy5" firstAttribute="centerY" secondItem="5Yc-0S-v77" secondAttribute="centerY" id="MTX-35-bE6"/>
+                            <constraint firstItem="vMQ-YY-6p3" firstAttribute="trailing" secondItem="aon-Nx-iy5" secondAttribute="trailing" constant="50" id="WI1-9p-6uz"/>
+                            <constraint firstItem="aon-Nx-iy5" firstAttribute="leading" secondItem="vMQ-YY-6p3" secondAttribute="leading" constant="50" id="qS6-hh-web"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bdH-Ok-C9c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vba-uW-ug5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2168" y="50"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
