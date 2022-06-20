@@ -1,9 +1,9 @@
 //
-//  WeatherManager.swift
+//  API.swift
 //  Clima
 //
-//  Created by Angela Yu on 03/09/2019.
-//  Copyright © 2019 App Brewery. All rights reserved.
+//  Created by Shaheem PP on 21/06/22.
+//  Copyright © 2022 App Brewery. All rights reserved.
 //
 
 import Foundation
