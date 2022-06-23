@@ -1,3 +1,6 @@
 [submodule "Day"]
 	path = Day
 	url = https://github.com/appbrewery/BMI-Calculator-iOS13
+[submodule "Day42-43/Day42-43/Clima-iOS13"]
+	path = Day42-43/Day42-43/Clima-iOS13
+	url = https://github.com/appbrewery/Clima-iOS13
