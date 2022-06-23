@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
+    let wm = WeatherModel()
+    
     @IBOutlet weak var currentLocation: UIButton!
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var searchButton: UIButton!
@@ -25,16 +27,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
     }
     
-    @IBAction func buttonPressed(_ sender: UIButton) {
-        locationLabel.text = searchTextField.text
+    
+    @IBAction func searchPressed(_ sender: UIButton) {
+        searchTextField.endEditing(true)
     }
     
-    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        if textField.text==""{
-            return true
-        }else{
-            return false
-        }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        //        let url = wm.apiGenerate(name: searchTextField.text ?? "nil")
+        searchTextField.endEditing(true)
+        return true
     }
     
     
