@@ -1,5 +1,3 @@
-![banner](old/banner.png)
-
 # iOS App Development Learning Journey
 
 Welcome to my iOS app development learning journey! I'm using two primary resources to learn: [Hacking with Swift](https://www.hackingwithswift.com/) and [iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp](https://www.udemy.com/course/ios-13-app-development-bootcamp/).
