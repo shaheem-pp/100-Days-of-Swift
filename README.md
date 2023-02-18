@@ -1,4 +1,4 @@
-![banner](banner.jpeg)
+![banner](banner.jpg)
 
 # iOS App Development Learning Journey
 
