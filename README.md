@@ -13,5 +13,4 @@ Welcome to my iOS app development learning journey! I'm using two primary resour
 I'm excited to learn and build functional iOS apps through these resources. Follow along with my progress and feel free to connect with me. 
 
 ## Contact
-- [Email](mailto:your_email@example.com)
-- [LinkedIn](https://www.linkedin.com/in/your_linkedin_profile)
+- [LinkedIn](https://www.linkedin.com/in/shaheem-pp)
