@@ -8,6 +8,9 @@ Welcome to my iOS app development learning journey! I'm using two primary resour
 ## iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp
 [iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp](https://www.udemy.com/course/ios-13-app-development-bootcamp/) is an online course that teaches iOS app development from scratch. The course covers Xcode, Swift, UIKit, Firebase, and more. 
 
+## SwiftUI Tutorials
+Another valuable resource for iOS app development is the [SwiftUI tutorials](https://developer.apple.com/tutorials/swiftui/) provided by Apple. SwiftUI is a modern framework for building user interfaces in Swift. These tutorials offer step-by-step instructions on how to build different types of iOS apps using SwiftUI.
+
 I'm excited to learn and build functional iOS apps through these resources. Follow along with my progress and feel free to connect with me. 
 
 ## Contact
