@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D673D872A35BE36000944AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673D862A35BE36000944AB /* AppDelegate.swift */; };
+		4D673D892A35BE36000944AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673D882A35BE36000944AB /* SceneDelegate.swift */; };
+		4D673D8B2A35BE36000944AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673D8A2A35BE36000944AB /* ViewController.swift */; };
+		4D673D8E2A35BE36000944AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D673D8C2A35BE36000944AB /* Main.storyboard */; };
+		4D673D902A35BE39000944AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D673D8F2A35BE39000944AB /* Assets.xcassets */; };
+		4D673D932A35BE39000944AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D673D912A35BE39000944AB /* LaunchScreen.storyboard */; };
+		4D673D9E2A35BE39000944AB /* Dua_ZikrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673D9D2A35BE39000944AB /* Dua_ZikrTests.swift */; };
+		4D673DA82A35BE39000944AB /* Dua_ZikrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673DA72A35BE39000944AB /* Dua_ZikrUITests.swift */; };
+		4D673DAA2A35BE39000944AB /* Dua_ZikrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D673DA92A35BE39000944AB /* Dua_ZikrUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D673D9A2A35BE39000944AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D673D7B2A35BE36000944AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D673D822A35BE36000944AB;
+			remoteInfo = "Dua&Zikr";
+		};
+		4D673DA42A35BE39000944AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D673D7B2A35BE36000944AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D673D822A35BE36000944AB;
+			remoteInfo = "Dua&Zikr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D673D832A35BE36000944AB /* Dua&Zikr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dua&Zikr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D673D862A35BE36000944AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D673D882A35BE36000944AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D673D8A2A35BE36000944AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D673D8D2A35BE36000944AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D673D8F2A35BE39000944AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D673D922A35BE39000944AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D673D942A35BE39000944AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D673D992A35BE39000944AB /* Dua&ZikrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dua&ZikrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D673D9D2A35BE39000944AB /* Dua_ZikrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dua_ZikrTests.swift; sourceTree = "<group>"; };
+		4D673DA32A35BE39000944AB /* Dua&ZikrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dua&ZikrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D673DA72A35BE39000944AB /* Dua_ZikrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dua_ZikrUITests.swift; sourceTree = "<group>"; };
+		4D673DA92A35BE39000944AB /* Dua_ZikrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dua_ZikrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D673D802A35BE36000944AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D673D962A35BE39000944AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D673DA02A35BE39000944AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D673D7A2A35BE36000944AB = {
+			isa = PBXGroup;
+			children = (
+				4D673D852A35BE36000944AB /* Dua&Zikr */,
+				4D673D9C2A35BE39000944AB /* Dua&ZikrTests */,
+				4D673DA62A35BE39000944AB /* Dua&ZikrUITests */,
+				4D673D842A35BE36000944AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D673D842A35BE36000944AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D673D832A35BE36000944AB /* Dua&Zikr.app */,
+				4D673D992A35BE39000944AB /* Dua&ZikrTests.xctest */,
+				4D673DA32A35BE39000944AB /* Dua&ZikrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D673D852A35BE36000944AB /* Dua&Zikr */ = {
+			isa = PBXGroup;
+			children = (
+				4D673D862A35BE36000944AB /* AppDelegate.swift */,
+				4D673D882A35BE36000944AB /* SceneDelegate.swift */,
+				4D673DB72A35C1F1000944AB /* View */,
+				4D673DB62A35C1E3000944AB /* Controller */,
+				4D673D8F2A35BE39000944AB /* Assets.xcassets */,
+				4D673D942A35BE39000944AB /* Info.plist */,
+			);
+			path = "Dua&Zikr";
+			sourceTree = "<group>";
+		};
+		4D673D9C2A35BE39000944AB /* Dua&ZikrTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D673D9D2A35BE39000944AB /* Dua_ZikrTests.swift */,
+			);
+			path = "Dua&ZikrTests";
+			sourceTree = "<group>";
+		};
+		4D673DA62A35BE39000944AB /* Dua&ZikrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D673DA72A35BE39000944AB /* Dua_ZikrUITests.swift */,
+				4D673DA92A35BE39000944AB /* Dua_ZikrUITestsLaunchTests.swift */,
+			);
+			path = "Dua&ZikrUITests";
+			sourceTree = "<group>";
+		};
+		4D673DB62A35C1E3000944AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D673D8A2A35BE36000944AB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D673DB72A35C1F1000944AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D673D8C2A35BE36000944AB /* Main.storyboard */,
+				4D673D912A35BE39000944AB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D673D822A35BE36000944AB /* Dua&Zikr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D673DAD2A35BE39000944AB /* Build configuration list for PBXNativeTarget "Dua&Zikr" */;
+			buildPhases = (
+				4D673D7F2A35BE36000944AB /* Sources */,
+				4D673D802A35BE36000944AB /* Frameworks */,
+				4D673D812A35BE36000944AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dua&Zikr";
+			productName = "Dua&Zikr";
+			productReference = 4D673D832A35BE36000944AB /* Dua&Zikr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D673D982A35BE39000944AB /* Dua&ZikrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D673DB02A35BE39000944AB /* Build configuration list for PBXNativeTarget "Dua&ZikrTests" */;
+			buildPhases = (
+				4D673D952A35BE39000944AB /* Sources */,
+				4D673D962A35BE39000944AB /* Frameworks */,
+				4D673D972A35BE39000944AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D673D9B2A35BE39000944AB /* PBXTargetDependency */,
+			);
+			name = "Dua&ZikrTests";
+			productName = "Dua&ZikrTests";
+			productReference = 4D673D992A35BE39000944AB /* Dua&ZikrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D673DA22A35BE39000944AB /* Dua&ZikrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D673DB32A35BE39000944AB /* Build configuration list for PBXNativeTarget "Dua&ZikrUITests" */;
+			buildPhases = (
+				4D673D9F2A35BE39000944AB /* Sources */,
+				4D673DA02A35BE39000944AB /* Frameworks */,
+				4D673DA12A35BE39000944AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D673DA52A35BE39000944AB /* PBXTargetDependency */,
+			);
+			name = "Dua&ZikrUITests";
+			productName = "Dua&ZikrUITests";
+			productReference = 4D673DA32A35BE39000944AB /* Dua&ZikrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D673D7B2A35BE36000944AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4D673D822A35BE36000944AB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4D673D982A35BE39000944AB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4D673D822A35BE36000944AB;
+					};
+					4D673DA22A35BE39000944AB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4D673D822A35BE36000944AB;
+					};
+				};
+			};
+			buildConfigurationList = 4D673D7E2A35BE36000944AB /* Build configuration list for PBXProject "Dua&Zikr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D673D7A2A35BE36000944AB;
+			productRefGroup = 4D673D842A35BE36000944AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D673D822A35BE36000944AB /* Dua&Zikr */,
+				4D673D982A35BE39000944AB /* Dua&ZikrTests */,
+				4D673DA22A35BE39000944AB /* Dua&ZikrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D673D812A35BE36000944AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D673D932A35BE39000944AB /* LaunchScreen.storyboard in Resources */,
+				4D673D902A35BE39000944AB /* Assets.xcassets in Resources */,
+				4D673D8E2A35BE36000944AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D673D972A35BE39000944AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D673DA12A35BE39000944AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D673D7F2A35BE36000944AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D673D8B2A35BE36000944AB /* ViewController.swift in Sources */,
+				4D673D872A35BE36000944AB /* AppDelegate.swift in Sources */,
+				4D673D892A35BE36000944AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D673D952A35BE39000944AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D673D9E2A35BE39000944AB /* Dua_ZikrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D673D9F2A35BE39000944AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D673DAA2A35BE39000944AB /* Dua_ZikrUITestsLaunchTests.swift in Sources */,
+				4D673DA82A35BE39000944AB /* Dua_ZikrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D673D9B2A35BE39000944AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D673D822A35BE36000944AB /* Dua&Zikr */;
+			targetProxy = 4D673D9A2A35BE39000944AB /* PBXContainerItemProxy */;
+		};
+		4D673DA52A35BE39000944AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D673D822A35BE36000944AB /* Dua&Zikr */;
+			targetProxy = 4D673DA42A35BE39000944AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D673D8C2A35BE36000944AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D673D8D2A35BE36000944AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D673D912A35BE39000944AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D673D922A35BE39000944AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D673DAB2A35BE39000944AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D673DAC2A35BE39000944AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D673DAE2A35BE39000944AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dua&Zikr/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.Dua-Zikr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D673DAF2A35BE39000944AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dua&Zikr/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.Dua-Zikr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D673DB12A35BE39000944AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.Dua-ZikrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dua&Zikr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dua&Zikr";
+			};
+			name = Debug;
+		};
+		4D673DB22A35BE39000944AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.Dua-ZikrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dua&Zikr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dua&Zikr";
+			};
+			name = Release;
+		};
+		4D673DB42A35BE39000944AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.Dua-ZikrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dua&Zikr";
+			};
+			name = Debug;
+		};
+		4D673DB52A35BE39000944AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.Dua-ZikrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dua&Zikr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D673D7E2A35BE36000944AB /* Build configuration list for PBXProject "Dua&Zikr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D673DAB2A35BE39000944AB /* Debug */,
+				4D673DAC2A35BE39000944AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D673DAD2A35BE39000944AB /* Build configuration list for PBXNativeTarget "Dua&Zikr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D673DAE2A35BE39000944AB /* Debug */,
+				4D673DAF2A35BE39000944AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D673DB02A35BE39000944AB /* Build configuration list for PBXNativeTarget "Dua&ZikrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D673DB12A35BE39000944AB /* Debug */,
+				4D673DB22A35BE39000944AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D673DB32A35BE39000944AB /* Build configuration list for PBXNativeTarget "Dua&ZikrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D673DB42A35BE39000944AB /* Debug */,
+				4D673DB52A35BE39000944AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D673D7B2A35BE36000944AB /* Project object */;
+}
