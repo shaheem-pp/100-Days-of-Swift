@@ -24,17 +24,25 @@ struct ContentView: View {
                     }
                     .padding()
                 }
-                .background(Color.gray.opacity(0.2))
+                .background(Color.gray.opacity(0.15))
+                
+                Image(viewModel.selectedImage?.imageName ?? "")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .cornerRadius(10)
+                    .scaledToFill()
+                    .padding(.top, 20)
+                    .padding(.bottom, 0)
                 
                 Text(viewModel.selectedImage?.imageName.uppercased() ?? "")
                     .font(.title)
                     .padding()
-                
-                Spacer()
+                    .padding(.top, 0)
                 
                 Text(viewModel.selectedImage?.description ?? "")
                     .padding(.horizontal, 50)
-                    .padding(.vertical, 20)
+                    .padding(.top, 0)
+//                    .padding(.vertical, 20)
             }
         }
     }

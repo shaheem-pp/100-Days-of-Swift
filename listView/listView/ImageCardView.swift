@@ -7,7 +7,7 @@ struct ImageCardView: View {
         VStack {
             Image(image.imageName)
                 .resizable()
-                .frame(width: 100, height: 100)
+                .frame(width: 50, height: 50)
                 .cornerRadius(100)
                 .scaledToFill()
             Text(image.imageName.uppercased())
