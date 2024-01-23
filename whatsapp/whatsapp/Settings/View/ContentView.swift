@@ -26,7 +26,7 @@ struct ContentView: View {
                 }
                 .tag(1)
             
-            Text("Communities")
+            CommunitiesContentView()
                 .tabItem {
                     Image(systemName: "person.3")
                     Text("Communities")

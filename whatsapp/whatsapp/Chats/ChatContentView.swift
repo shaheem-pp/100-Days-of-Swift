@@ -37,14 +37,14 @@ struct ChatContentView: View {
                         .background(Color(red: 246/255, green: 246/255, blue: 246/255))
                         .foregroundColor(Color(red: 134/255, green: 133/255, blue: 138/255))
                         .cornerRadius(15)
-//                    Text("test")
-//                        .padding(.horizontal, 10)
-//                        .padding(.vertical, 5)
-//                        .background(
-//                            Capsule()
-//                                .fill(Color(red: 246/255, green: 246/255, blue: 246/255))
-//                        )
-//                        .foregroundColor(Color(red: 134/255, green: 133/255, blue: 138/255))
+                    //                    Text("test")
+                    //                        .padding(.horizontal, 10)
+                    //                        .padding(.vertical, 5)
+                    //                        .background(
+                    //                            Capsule()
+                    //                                .fill(Color(red: 246/255, green: 246/255, blue: 246/255))
+                    //                        )
+                    //                        .foregroundColor(Color(red: 134/255, green: 133/255, blue: 138/255))
                     Spacer()
                 }
                 .listRowSeparator(.hidden)
@@ -66,7 +66,7 @@ struct ChatContentView: View {
                         }
                     }
                 }
-
+                
                 
                 
                 
@@ -139,6 +139,7 @@ struct ChatContentView: View {
                         
                         VStack(alignment: .trailing) {
                             Text("16:00")
+                                .foregroundStyle(Color.blue)
                             
                             Text("2")
                                 .padding(.horizontal, 10)
@@ -147,6 +148,64 @@ struct ChatContentView: View {
                                         .fill(Color.blue)
                                 )
                                 .foregroundStyle(Color.white)
+                            Spacer()
+                        }
+                        .foregroundColor(Color.gray)
+                    }
+                }
+                NavigationLink(destination: DetailView(detail: "Fadi Ali")) {
+                    HStack {
+                        ZStack {
+                            Rectangle()
+                                .frame(width: 38, height: 50)
+                                .cornerRadius(10)
+                                .foregroundColor(Color(hue: 0.0, saturation: 0.0, brightness: 0.0, opacity: 0.104))
+                                .rotationEffect(.degrees(-10), anchor: .bottomLeading)
+                                .offset(x: -5, y: 5)
+                            Rectangle()
+                                .frame(width: 38, height: 50)
+                                .cornerRadius(10)
+                                .foregroundColor(Color(hue: 0.0, saturation: 0.0, brightness: 0.0, opacity: 0.104))
+                                .rotationEffect(.degrees(-17), anchor: .bottomLeading)
+                                .offset(x: -6, y: 6)
+                            Rectangle()
+                                .frame(width: 50, height: 50)
+                                .cornerRadius(10)
+                                .foregroundColor(.gray)
+                            Image(systemName: "person.3.fill")
+                                .foregroundStyle(Color.white)
+                        }
+                        
+                        VStack(alignment: .leading) {
+                            Text("Tech Communities")
+                                .lineLimit(1)
+                                .bold()
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(Color.black)
+                            
+                            HStack(alignment: .top) {
+                                Text("TechSIAS, TinkerHub SIAS, MuLearn SIAS")
+                                    .lineLimit(2)
+                                    .truncationMode(.tail)
+                                    .font(.subheadline)
+                                    .multilineTextAlignment(.leading)
+                                    .foregroundColor(.gray)
+                            }
+                            Spacer()
+                        }
+                        
+                        Spacer()
+                        
+                        VStack(alignment: .trailing) {
+                            HStack{
+                                Text("2")
+                                    .padding(.horizontal, 10)
+                                    .background(
+                                        Capsule()
+                                            .fill(Color.blue)
+                                    )
+                                    .foregroundStyle(Color.white)
+                            }
                             Spacer()
                         }
                         .foregroundColor(Color.gray)
@@ -245,8 +304,6 @@ struct CustomRow: View {
         }
     }
 }
-
-
 
 
 

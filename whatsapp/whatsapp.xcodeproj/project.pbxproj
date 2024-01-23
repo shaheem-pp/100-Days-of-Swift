@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8496052B600FD200793386 /* CommunitiesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8496042B600FD200793386 /* CommunitiesContentView.swift */; };
+		4D8496072B600FF600793386 /* CommunitiesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8496062B600FF600793386 /* CommunitiesCardView.swift */; };
 		4DA974B42B5811EF004140B6 /* whatsappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA974B32B5811EF004140B6 /* whatsappApp.swift */; };
 		4DA974B62B5811EF004140B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA974B52B5811EF004140B6 /* ContentView.swift */; };
 		4DA974B82B5811F4004140B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA974B72B5811F4004140B6 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D8496042B600FD200793386 /* CommunitiesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesContentView.swift; sourceTree = "<group>"; };
+		4D8496062B600FF600793386 /* CommunitiesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesCardView.swift; sourceTree = "<group>"; };
 		4DA974B02B5811EF004140B6 /* whatsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA974B32B5811EF004140B6 /* whatsappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatsappApp.swift; sourceTree = "<group>"; };
 		4DA974B52B5811EF004140B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D8496032B600FBA00793386 /* Communities */ = {
+			isa = PBXGroup;
+			children = (
+				4D8496042B600FD200793386 /* CommunitiesContentView.swift */,
+				4D8496062B600FF600793386 /* CommunitiesCardView.swift */,
+			);
+			path = Communities;
+			sourceTree = "<group>";
+		};
 		4DA974A72B5811EF004140B6 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +113,7 @@
 		4DA974B22B5811EF004140B6 /* whatsapp */ = {
 			isa = PBXGroup;
 			children = (
+				4D8496032B600FBA00793386 /* Communities */,
 				4DA974EB2B596EE6004140B6 /* Chats */,
 				4DA974E52B58322A004140B6 /* Settings */,
 				4DA974B32B5811EF004140B6 /* whatsappApp.swift */,
@@ -290,9 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8496052B600FD200793386 /* CommunitiesContentView.swift in Sources */,
 				4DA974B62B5811EF004140B6 /* ContentView.swift in Sources */,
 				4DA974E82B5832AA004140B6 /* ProfileView.swift in Sources */,
 				4DA974B42B5811EF004140B6 /* whatsappApp.swift in Sources */,
+				4D8496072B600FF600793386 /* CommunitiesCardView.swift in Sources */,
 				4DA974ED2B596EF4004140B6 /* ChatContentView.swift in Sources */,
 				4DA974EA2B5833B7004140B6 /* ItemView.swift in Sources */,
 			);
