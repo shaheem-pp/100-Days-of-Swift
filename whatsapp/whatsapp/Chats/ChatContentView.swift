@@ -198,7 +198,7 @@ struct ChatContentView: View {
                         
                         VStack(alignment: .trailing) {
                             HStack{
-                                Text("2")
+                                Text("99+")
                                     .padding(.horizontal, 10)
                                     .background(
                                         Capsule()

@@ -9,9 +9,7 @@ import SwiftUI
 
 struct CommunitiesCardView: View {
     var body: some View {
-        Section{
-            Text("Hello World")
-        }
+        Text("Hello")
     }
 }
 
