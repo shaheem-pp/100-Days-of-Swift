@@ -19,6 +19,7 @@
 		4DA974E82B5832AA004140B6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA974E72B5832AA004140B6 /* ProfileView.swift */; };
 		4DA974EA2B5833B7004140B6 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA974E92B5833B7004140B6 /* ItemView.swift */; };
 		4DA974ED2B596EF4004140B6 /* ChatContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA974EC2B596EF4004140B6 /* ChatContentView.swift */; };
+		4DC2F5822B6365BD004ACD90 /* SingleChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2F5812B6365BD004ACD90 /* SingleChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		4DA974E72B5832AA004140B6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4DA974E92B5833B7004140B6 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		4DA974EC2B596EF4004140B6 /* ChatContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContentView.swift; sourceTree = "<group>"; };
+		4DC2F5812B6365BD004ACD90 /* SingleChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				4DA974EC2B596EF4004140B6 /* ChatContentView.swift */,
+				4DC2F5812B6365BD004ACD90 /* SingleChatView.swift */,
 			);
 			path = Chats;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				4DA974B62B5811EF004140B6 /* ContentView.swift in Sources */,
 				4DA974E82B5832AA004140B6 /* ProfileView.swift in Sources */,
 				4DA974B42B5811EF004140B6 /* whatsappApp.swift in Sources */,
+				4DC2F5822B6365BD004ACD90 /* SingleChatView.swift in Sources */,
 				4D8496072B600FF600793386 /* CommunitiesCardView.swift in Sources */,
 				4DA974ED2B596EF4004140B6 /* ChatContentView.swift in Sources */,
 				4DA974EA2B5833B7004140B6 /* ItemView.swift in Sources */,

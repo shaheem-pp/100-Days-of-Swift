@@ -77,13 +77,13 @@ struct CommunitiesContentView: View {
                                     Text("Admin: Welcome to the announcement channnel.")
                                         .lineLimit(1)
                                         .multilineTextAlignment(.leading)
-                                        .font(.caption)
+                                        .font(.subheadline)
                                         .foregroundStyle(Color.gray)
                                 }
                                 Spacer()
                                 VStack(alignment: .trailing, content: {
                                     Text("6:09PM")
-                                        .font(.caption)
+                                        .font(.subheadline)
                                         .foregroundStyle(Color.gray)
                                     Image(systemName: "pin.fill")
                                         .font(.caption)
@@ -107,13 +107,13 @@ struct CommunitiesContentView: View {
                                     Text("Admin: Exciting News🚀 We are have launching")
                                         .lineLimit(1)
                                         .multilineTextAlignment(.leading)
-                                        .font(.caption)
+                                        .font(.subheadline)
                                         .foregroundStyle(Color.gray)
                                 }
                                 Spacer()
                                 VStack(alignment: .trailing, content: {
                                     Text("Yesterday")
-                                        .font(.caption)
+                                        .font(.subheadline)
                                         .foregroundStyle(Color.blue)
                                     HStack{
                                         Image(systemName: "speaker.slash.fill")

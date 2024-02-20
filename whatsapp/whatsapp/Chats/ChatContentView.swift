@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ChatContentView: View {
     @State private var searchText: String = ""
+    @State private var showSingleChatView = false // Add this line
     var body: some View {
         NavigationStack {
             List {
@@ -37,14 +38,6 @@ struct ChatContentView: View {
                         .background(Color(red: 246/255, green: 246/255, blue: 246/255))
                         .foregroundColor(Color(red: 134/255, green: 133/255, blue: 138/255))
                         .cornerRadius(15)
-                    //                    Text("test")
-                    //                        .padding(.horizontal, 10)
-                    //                        .padding(.vertical, 5)
-                    //                        .background(
-                    //                            Capsule()
-                    //                                .fill(Color(red: 246/255, green: 246/255, blue: 246/255))
-                    //                        )
-                    //                        .foregroundColor(Color(red: 134/255, green: 133/255, blue: 138/255))
                     Spacer()
                 }
                 .listRowSeparator(.hidden)
@@ -70,42 +63,45 @@ struct ChatContentView: View {
                 
                 
                 
-                
-                NavigationLink(destination: DetailView(detail: "Tech Team")) {
-                    HStack {
-                        Image("dp")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 50, height: 50)
-                            .clipShape(Circle())
-                        
-                        VStack(alignment: .leading) {
-                            Text("You")
-                                .lineLimit(1)
-                                .bold()
-                                .multilineTextAlignment(.leading)
-                                .foregroundColor(Color.black)
+                Button(action: {
+                    showSingleChatView = true // Set this to true when the button is tapped
+                }) {
+                    NavigationLink(destination: SingleChatView()) {
+                        HStack {
+                            Image("dp")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 50, height: 50)
+                                .clipShape(Circle())
                             
-                            HStack(alignment: .top) {
-                                Text("✓ -Meeting tomorrow at 10")
-                                    .lineLimit(2)
-                                    .truncationMode(.tail)
-                                    .font(.subheadline)
+                            VStack(alignment: .leading) {
+                                Text("You")
+                                    .lineLimit(1)
+                                    .bold()
                                     .multilineTextAlignment(.leading)
-                                    .foregroundColor(.gray)
+                                    .foregroundColor(Color.black)
+                                
+                                HStack(alignment: .top) {
+                                    Text("✓ -Meeting tomorrow at 10")
+                                        .lineLimit(2)
+                                        .truncationMode(.tail)
+                                        .font(.subheadline)
+                                        .multilineTextAlignment(.leading)
+                                        .foregroundColor(.gray)
+                                }
+                                Spacer()
                             }
+                            
                             Spacer()
+                            
+                            VStack(alignment: .trailing) {
+                                Text("16:00")
+                                Spacer()
+                                Image(systemName: "pin.fill")
+                                    .rotationEffect(Angle(degrees: 45))
+                            }
+                            .foregroundColor(Color.gray)
                         }
-                        
-                        Spacer()
-                        
-                        VStack(alignment: .trailing) {
-                            Text("16:00")
-                            Spacer()
-                            Image(systemName: "pin.fill")
-                                .rotationEffect(Angle(degrees: 45))
-                        }
-                        .foregroundColor(Color.gray)
                     }
                 }
                 
@@ -258,6 +254,7 @@ struct ChatContentView: View {
                     }
                 }
             }
+            .fullScreenCover(isPresented: $showSingleChatView, content: SingleChatView.init) // This line presents the SingleChatView as a full screen cover
         }
     }
 }
